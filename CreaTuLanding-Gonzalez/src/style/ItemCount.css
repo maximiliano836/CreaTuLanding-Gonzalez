@@ -1,0 +1,51 @@
+.item-count-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item-count-btn {
+  background: linear-gradient(90deg, #1976d2, #21cbf3);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  width: 36px;
+  height: 36px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+  outline: none;
+}
+
+.item-count-btn:active {
+  transform: scale(0.95);
+}
+
+.item-count-value {
+  font-size: 1.3rem;
+  font-weight: bold;
+  min-width: 32px;
+  text-align: center;
+  color: #1976d2;
+}
+
+.item-count-add-btn {
+  background: linear-gradient(90deg, #388e3c, #43e97b);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 1rem;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.item-count-add-btn:hover {
+  background: linear-gradient(90deg, #43e97b, #388e3c);
+}
