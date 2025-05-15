@@ -7,7 +7,7 @@ import ItemDetailContainer from "./container/ItemDetailContainer";
 
 function App() {
   return (
-    <Router basename="/CreaTuLanding-Gonzalez">
+    <Router basename="/NavegaLasRutas-Gonzalez">
       <>
         <NavBar />
       </>
